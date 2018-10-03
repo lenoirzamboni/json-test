@@ -1,8 +1,9 @@
 {
-  "authorization" : {
+  "authorization": {
     "privateKey": "6843684364",
-    "owner": "admin",
-    "devices": [
+    "owner": "admin"
+  },
+  "devices": [
     {
       "_id": "3453465",
       "_rev": "4-49edeba28034caa12b8d9619e4a235a6",
@@ -82,5 +83,4 @@
       ]
     }
   ]
-  }
 }
