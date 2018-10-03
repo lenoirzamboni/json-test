@@ -1,0 +1,4 @@
+{
+  "/api/devices/get": "/devices",
+  "/api/login": "/authorization"
+}

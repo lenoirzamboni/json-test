@@ -1,0 +1,82 @@
+{
+  "devices": [
+    {
+      "_id": "3453465",
+      "_rev": "4-49edeba28034caa12b8d9619e4a235a6",
+      "type": "gateway",
+      "name": "Gateway",
+      "description": "",
+      "ip": "192.168.1.5",
+      "privateIP": "192.168.1.5",
+      "coord": [
+        2222.2222,
+        1111.1111
+      ],
+      "services": [
+        {
+          "_id": "1",
+          "_rev": "1-03653bddba38759a52f3662b706ed7d2",
+          "type": "sensor",
+          "action": "input",
+          "key": "luminosity-vaso-planta",
+          "name": "luminosidade",
+          "unit": "kwh",
+          "dataType": "integer",
+          "description": "informa a luminosidade do ambiente",
+          "measurements": [
+            {
+              "_id": "e05318ba6c7649a7201ff414a3433de9",
+              "_rev": "1-d7d00bc6a22382e9e4c35ed8b2cc3766",
+              "value": "35",
+              "key": "luminosity-vaso-planta",
+              "createdAt": "2018-09-29T13:07:18.790Z",
+              "device": "Gateway"
+            }
+          ]
+        },
+        {
+          "_id": "3",
+          "_rev": "1-eaa048bfe98d7c92dd56f34ceaabc70a",
+          "type": "sensor",
+          "action": "input",
+          "key": "temperature-vaso-planta",
+          "name": "Temperatura",
+          "unit": "y",
+          "dataType": "integer",
+          "description": "informa a Temperatura do ambiente",
+          "measurements": [
+            {
+              "_id": "e05318ba6c7649a7201ff414a3433de9",
+              "_rev": "1-d7d00bc6a22382e9e4c35ed8b2cc3766",
+              "value": "35",
+              "key": "luminosity-vaso-planta",
+              "createdAt": "2018-09-29T13:07:18.790Z",
+              "device": "Gateway"
+            }
+          ]
+        },
+        {
+          "_id": "2",
+          "_rev": "1-9399049c441ac99bb9fbe5eea352e9cf",
+          "type": "sensor",
+          "action": "input",
+          "key": "umidity-vaso-planta",
+          "name": "umidade",
+          "unit": "x",
+          "dataType": "integer",
+          "description": "informa a umidade do ambiente",
+          "measurements": [
+            {
+              "_id": "e05318ba6c7649a7201ff414a3433de9",
+              "_rev": "1-d7d00bc6a22382e9e4c35ed8b2cc3766",
+              "value": "35",
+              "key": "luminosity-vaso-planta",
+              "createdAt": "2018-09-29T13:07:18.790Z",
+              "device": "Gateway"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
